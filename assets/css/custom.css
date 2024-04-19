@@ -1,0 +1,11 @@
+html {
+  font-size: 12pt;
+}
+
+.prose {
+  max-width: 110ch;
+}
+
+.max-w-prose {
+  max-width: 110ch;
+}
