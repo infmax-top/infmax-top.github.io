@@ -76,3 +76,27 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+
+  # Sync to self-hosted server
+  sync-to-server:
+    runs-on: ubuntu-latest
+    needs: build
+    steps:
+      - name: Download artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: github-pages
+          path: ./artifact
+      - name: Extract artifact
+        run: |
+          mkdir -p ./public
+          tar -xvf ./artifact/artifact.tar -C ./public
+      - name: Setup SSH
+        run: |
+          mkdir -p ~/.ssh
+          echo "${{ secrets.SERVER_SSH_KEY }}" > ~/.ssh/id_rsa
+          chmod 600 ~/.ssh/id_rsa
+          ssh-keyscan -H ali.infmax.top >> ~/.ssh/known_hosts
+      - name: Sync to server
+        run: |
+          rsync -avz --delete ./public/ ${{ secrets.SERVER_USER }}@ali.infmax.top:${{ secrets.SERVER_PATH }}/
