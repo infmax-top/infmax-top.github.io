@@ -26,9 +26,19 @@
   weight = 12
 
 [[main]]
+name = "ITrending"
+url = "https://itrending.top"
+weight = 13
+
+[[main]]
+name = "Terminal"
+url = "https://itrending.top/terminal"
+weight = 14
+
+[[main]]
 name = "IT工具集"
 url = "https://tool.infmax.top"
-weight = 13
+weight = 15
 
 [[main]]
   name = "关于"
