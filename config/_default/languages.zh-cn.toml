@@ -4,7 +4,7 @@ languageDirection = "ltr"
 weight = 1
 
 title = "无限求索"
-copyright = "© 2024-2024 InfMax"
+copyright = "© 2024-2025 InfMax | [陕ICP备2025064778号-2](https://beian.miit.gov.cn/) "
 
 [params]
   dateFormat = "2 January 2006"
