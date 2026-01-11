@@ -6,19 +6,11 @@ draft = false
 
 ## Portfolio
 
-<div style="text-align: left;">
+📈 [ITrending](https://itrending.top) Discover trending open-source projects, beyond Github Trending
 
-🔍 [ITrending](https://itrending.top) Discover trending open-source projects, beyond Github Trending
-
-<br>
-
-🖥️ [Terminal](https://itrending.top/terminal) Discover amazing command-line applications and developer tools
-
-<br>
+💻 [Terminal](https://itrending.top/terminal) Discover amazing command-line applications and developer tools
 
 ⚡ [Curvine](https://github.com/curvineio/curvine) High-performance distributed cache implemented in Rust
-
-</div>
 
 ---
 

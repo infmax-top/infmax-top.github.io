@@ -11,19 +11,11 @@ draft = false
 
 ## 作品集
 
-<div style="text-align: left;">
+📈 [ITrending](https://itrending.top) 发现流行的开源项目，不止于 Github Trending
 
-🔍 [ITrending](https://itrending.top) 发现流行的开源项目，不止于 Github Trending
-
-<br>
-
-🖥️ [Terminal](https://itrending.top/terminal) Discover amazing command-line applications and developer tools
-
-<br>
+💻 [Terminal](https://itrending.top/terminal) Discover amazing command-line applications and developer tools
 
 ⚡ [Curvine](https://github.com/curvineio/curvine) Rust实现的高性能分布式缓存🔥
-
-</div>
 
 ---
 

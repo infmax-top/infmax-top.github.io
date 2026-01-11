@@ -6,6 +6,15 @@ html {
   max-width: 110ch;
 }
 
+.prose ul {
+  text-align: left;
+}
+
 .max-w-prose {
   max-width: 110ch;
+}
+
+/* 作品集区域的p标签左对齐 */
+.prose h2#作品集 ~ p {
+  text-align: left;
 }
